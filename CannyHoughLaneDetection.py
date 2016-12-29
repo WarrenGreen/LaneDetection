@@ -49,4 +49,4 @@ while True:
   if(writer == None):
     fin_row, fin_col, fin_d = fin.shape
     writer = cv2.VideoWriter("output.mp4", fourcc, 15, (fin_col, fin_row))
-  writer.write(fin)
+    writer.write(fin)
